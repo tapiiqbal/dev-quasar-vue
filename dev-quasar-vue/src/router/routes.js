@@ -6,6 +6,14 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Index.vue') }
     ]
+  },
+
+  {
+    path: '/testing',
+    component: () => import('layouts/Header.vue'),
+    children: [
+      // { path: '', component: () => import('pages/Index.vue') }
+    ]
   }
 ]
 

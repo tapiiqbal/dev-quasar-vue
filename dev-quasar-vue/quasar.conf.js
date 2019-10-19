@@ -43,7 +43,9 @@ module.exports = function (ctx) {
       all: 'auto',
 
       components: [
-            'QDrawer'
+            'QDrawer',
+            'QHeader',
+            'QFooter'
       ],
       directives: [],
 

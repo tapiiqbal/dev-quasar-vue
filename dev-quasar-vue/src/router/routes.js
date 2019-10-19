@@ -9,10 +9,10 @@ const routes = [
   },
 
   {
-    path: '/testing',
-    component: () => import('layouts/Header.vue'),
+    path: '/beranda',
+    component: () => import('layouts/Beranda.vue'),
     children: [
-      // { path: '', component: () => import('pages/Index.vue') }
+      // { path: '', component: () => import('pages/.vue') }
     ]
   }
 ]
